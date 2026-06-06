@@ -12,6 +12,4 @@ build/
 *.njsproj
 *.sln
 *.sw?
-eslint.config.js
-package-lock.json
-vite.config.js   
+package-lock.json 
