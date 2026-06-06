@@ -8,21 +8,15 @@
     rgba(237, 104, 21, 1) 99%
   );
 }
-
-@media (max-width: 768px) {
-  .navlink{
-    position: absolute;
-    top: 74px;
-    right:-220px;
-    padding: 20px;
-    background-color: white;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    border: 1px solid #ccc;
-  }
-  .navlink_active{
-    right: 0;
-    transition: right 0.3s ease-in-out;
-  }
+.navlink_responsive {
+  position: fixed;
+  top: 73px;
+  right: -210px;
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  text-align: center;
+}
+.navlink_active {
+  right: 0;
+  transition: right 0.5s ease-in-out;
 }
