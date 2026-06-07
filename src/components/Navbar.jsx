@@ -9,7 +9,7 @@ export const Navbar = () => {
                     <li className="cursor-pointer text-3xl font-bold">LOGO</li>
                     <li className="cursor-pointer text-gray-500 hidden md:inline-block">Find deals</li>
                     <li className="cursor-pointer text-gray-500 hidden md:inline-block">How</li>
-                    <li className="cursor-pointer text-gray-500 hidden md:inline-block">For Partners</li>
+                    <li className="cursor-pointer text-gray-500 hidden md:inline-block">For Partners benifit</li>
                 </ul>
                 <div className='md:block hidden'>
                     <div className='flex space-x-0 md:space-x-10 items-center'>
