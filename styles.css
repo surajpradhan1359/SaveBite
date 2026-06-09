@@ -11,10 +11,14 @@
 .navlink_responsive {
   position: fixed;
   top: 73px;
-  right: -210px;
+  width: 300px;
+  right: -300px;
+  height: 100vh;
   border: 1px solid #e5e7eb;
   padding: 1rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
 }
 .navlink_active {
   right: 0;
