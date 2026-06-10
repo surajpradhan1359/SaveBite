@@ -27,7 +27,7 @@ export const HeroSection = () => {
             <div className="hello">
                 <div className="relative w-full max-w-sm mx-auto">
                 <img src="https://i.pinimg.com/736x/43/53/27/4353272ccdc31a542655903efdf28509.jpg" alt="Biriyani with Salad" className="w-full h-[400px] object-cover rounded-3xl shadow"/>
-                <div className="absolute top-4 right-4 bg-white  px-3 py-1 rounded-xl text-xs flex items-center gap-1">
+                <div className="absolute top-4 right-4 bg-white  p-3 rounded-xl flex items-center gap-1">
                     <span className="bg-orange-500 text-white p-1 rounded"><i className="fa-regular fa-clock"></i></span>
                 <div>
                 <p className="text-[9px] uppercase font-bold">Next Pickup</p>
