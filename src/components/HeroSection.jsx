@@ -24,18 +24,18 @@ export const HeroSection = () => {
                 </div>
             </div>
             {/* Hero Image Section */}
-            <div className="">
-                <div className="relative w-full max-w-sm mx-auto">
-                    <img  className="w-full h-[400px] object-cover rounded-3xl shadow-2xl" src="/images/biryani.jpeg" alt="Biriyani with Salad"/>
-                    <div className="absolute top-4 right-4 bg-orange-500 text-black p-3 border rounded-xl flex items-center gap-1">
-                        <span><i className="fa-regular fa-clock"></i></span>
+            <div className="hello">
+                <div className="relative w-full max-w-sm mx-auto rotate-2">
+                    <img src="https://i.pinimg.com/736x/43/53/27/4353272ccdc31a542655903efdf28509.jpg" alt="Biriyani with Salad" className="w-full h-[500px] object-cover rounded-3xl shadow" />
+                    <div className="absolute -top-6 -right-6 border bg-white  p-3 rounded-xl flex items-center gap-2">
+                        <span className="bg-orange-500 text-white p-2 rounded"><i className="fa-regular fa-clock"></i></span>
                         <div>
-                            <p className="text-[9px] uppercase font-bold">Next Pickup</p>
+                            <p className="text-[9px] uppercase font-bold text-gray-400">Next Pickup</p>
                             <p className="font-bold">In 14 mins</p>
                         </div>
                     </div>
-                    <div className="absolute bottom-4 left-4 bg-white p-3 rounded-xl shadow border flex items-center gap-2">
-                        <span className="bg-green-500 text-white p-1 rounded"><i className="fa-solid fa-arrow-trend-down"></i></span>
+                    <div className="absolute -bottom-6 -left-6 bg-white p-3 rounded-xl shadow border flex items-center gap-2">
+                        <span className="bg-green-500 text-white p-2 rounded"><i className="fa-solid fa-arrow-trend-down"></i></span>
                         <div>
                             <p className="text-[10px] text-gray-400">Average Savings</p>
                             <p className="text-sm font-bold text-gray-900">$12.50 / meal</p>
