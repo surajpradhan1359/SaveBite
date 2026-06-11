@@ -1,4 +1,3 @@
-
 export function Division1() {
   return (
     <div className="bg-white py-16 px-4">
@@ -17,7 +16,7 @@ export function Division1() {
           
           <div className="flex flex-col items-center text-center">
             <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center mb-4">
-              <span className="text-blue-500 text-xl font-bold"><i class="fa-solid fa-magnifying-glass"></i></span>
+              <span className="text-blue-500 text-xl font-bold"><i className="fa-solid fa-magnifying-glass"></i></span>
             </div>
             <h3 className="text-gray-900 font-semibold text-lg mb-2">
               Browse Deals
@@ -29,7 +28,7 @@ export function Division1() {
 
           <div className="flex flex-col items-center text-center">
             <div className="w-12 h-12 bg-orange-50 rounded-full flex items-center justify-center mb-4">
-              <span className="text-orange-500 text-xl font-bold"><i class="fa-solid fa-cart-shopping"></i></span>
+              <span className="text-orange-500 text-xl font-bold"><i className="fa-solid fa-cart-shopping"></i></span>
             </div>
             <h3 className="text-gray-900 font-semibold text-lg mb-2">
               Reserve & Pay
@@ -41,7 +40,7 @@ export function Division1() {
 
           <div className="flex flex-col items-center text-center">
             <div className="w-12 h-12 bg-emerald-50 rounded-full flex items-center justify-center mb-4">
-              <span className="text-emerald-500 text-xl font-bold"><i class="fa-solid fa-check"></i></span>
+              <span className="text-emerald-500 text-xl font-bold"><i className="fa-solid fa-check"></i></span>
             </div>
             <h3 className="text-gray-900 font-semibold text-lg mb-2">
               Pickup & Enjoy
