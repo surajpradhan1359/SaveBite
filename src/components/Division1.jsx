@@ -1,10 +1,10 @@
 export function Division1() {
   return (
-    <div className="bg-white py-16 px-4">
-      <div className="max-w-6xl mx-auto">
+    <div className="bg-white py-16 ">
+      <div>
         
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-2">
+          <h2 className="text-4xl font-bold text-gray-900 mb-2">
             How SaveBite Works
           </h2>
           <p className="text-gray-500 text-sm">

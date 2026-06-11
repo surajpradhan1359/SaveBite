@@ -10,9 +10,9 @@ export const Navbar = () => {
             <div className="py-4 max-w-[1200px] mx-auto flex  items-center justify-between">
                 <ul className="flex space-x-2 md:space-x-6 items-center">
                     <li className="cursor-pointer text-3xl font-bold">LOGO</li>
-                    <li className="cursor-pointer text-gray-500 hidden md:inline-block">Find deals to do by yourself</li>
-                    <li className="cursor-pointer text-gray-500 hidden md:inline-block">How we going to work</li>
-                    <li className="cursor-pointer text-gray-500 hidden md:inline-block">For Partners benefit</li>
+                    <li className="cursor-pointer hover:text-blue-500 text-gray-500 hidden md:inline-block">Find deals</li>
+                    <li className="cursor-pointer hover:text-blue-500 text-gray-500 hidden md:inline-block">How it works</li>
+                    <li className="cursor-pointer hover:text-blue-500 text-gray-500 hidden md:inline-block">For Partners </li>
                 </ul>
                 <div className='md:block hidden'>
                     <div className='flex space-x-0 md:space-x-10 items-center'>

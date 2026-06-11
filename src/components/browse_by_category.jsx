@@ -1,9 +1,9 @@
 
-export const Division3 = () => {
+export const BrowseByCategory = () => {
     return (
-        <div className="text-center p-10 font-sans">
+        <div className="text-center py-10 font-sans">
             <h2 className="text-2xl font-bold mb-6 text-gray-800">Browse by Category</h2>
-            <div className="flex justify-center gap-6">
+            <div className="flex justify-center gap-x-14 mt-4">
                 <div className="flex flex-col items-center">
                     <div className="w-[60px] h-[60px] rounded-full bg-[#ff9307] flex items-center justify-center text-2xl text-white">
                       <i class="fa-solid fa-utensils"></i>  
