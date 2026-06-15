@@ -9,7 +9,7 @@ export const Navbar = () => {
         <nav className="w-full border-b border-gray-300 px-4 lg:px-0 sticky top-0 z-50 bg-white">
             <div className="py-4 max-w-[1200px] mx-auto flex  items-center justify-between">
                 <ul className="flex space-x-2 md:space-x-6 items-center">
-                    <li className="cursor-pointer text-3xl font-bold">LOGO</li>
+                    <li className="cursor-pointer text-3xl font-bold"><i class="fa-solid fa-leaf"></i>LOGO</li>
                     <li className="cursor-pointer hover:text-blue-500 text-gray-500 hidden md:inline-block">Find deals</li>
                     <li className="cursor-pointer hover:text-blue-500 text-gray-500 hidden md:inline-block">How it works</li>
                     <li className="cursor-pointer hover:text-blue-500 text-gray-500 hidden md:inline-block">For Partners </li>

@@ -3,7 +3,7 @@ export const HeroSection = () => {
         <div className="grid grid-cols-2 py-14  bg-gradient-to-r from-white to-green-50">
             {/* Hero Section Text */}
             <div className="flex flex-col items-start space-y-2">
-                <p className="font-bold text-green-500 bg-green-100 border border-green-200 px-2 py-1 rounded-2xl">Resucing 12k+ meal every month</p>
+                <p className="font-bold text-green-500 bg-green-100 border border-green-200 px-2 py-1 rounded-2xl"><i class="fa-solid fa-seedling"></i>Resucing 12k+ meal every month</p>
                 <h1 className="text-6xl font-bold">Great Food.</h1>
                 <h1 className="text-6xl font-bold bg-gradient-to-r from-green-500 to-orange-500 bg-clip-text text-transparent">Tiny Prices.</h1>
                 <h1 className="text-6xl font-bold">Zero Waste.</h1>
