@@ -17,7 +17,7 @@ export const FeaturesDeals = () => {
             {/* Cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {featureDeals.map((elm,index)=>{
-                    return <Card key={index} obj={elm} />
+                    return <Card key={index} data={elm} name="Subha"/> 
                 })}
             </div>
         </div>

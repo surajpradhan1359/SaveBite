@@ -5,7 +5,7 @@ export const featureDeals = [
     discountPercentage: 10,
     isHotestDeal: true,
     restaurantName: "Pasta Palace",
-    remainingTime: 3000,
+    remainingTime: 4100,
     dishDescription: "Penne pasta tossed in a fiery tomato sauce with garlic, chili flakes, and fresh parsley."
   },
   {
@@ -14,7 +14,7 @@ export const featureDeals = [
     discountPercentage: 0,
     isHotestDeal: false,
     restaurantName: "Burger Haven",
-    remainingTime: 3000,
+    remainingTime: 5000,
     dishDescription: "A juicy beef patty topped with melted cheddar, lettuce, tomato, and house sauce on a toasted bun."
   },
   {
@@ -23,7 +23,7 @@ export const featureDeals = [
     discountPercentage: 15,
     isHotestDeal: true,
     restaurantName: "Spice Route",
-    remainingTime: 3000,
+    remainingTime: 6000,
     dishDescription: "Chicken marinated in yogurt and traditional spices, grilled to perfection in a clay oven."
   },
   {
@@ -32,7 +32,7 @@ export const featureDeals = [
     discountPercentage: 5,
     isHotestDeal: false,
     restaurantName: "Bella Italia",
-    remainingTime: 3000,
+    remainingTime: 2000,
     dishDescription: "Thin crust pizza topped with fresh mozzarella, basil leaves, and a signature tomato base."
   },
   {
@@ -41,7 +41,7 @@ export const featureDeals = [
     discountPercentage: 20,
     isHotestDeal: true,
     restaurantName: "Sushi Zen",
-    remainingTime: 3000,
+    remainingTime: 1000,
     dishDescription: "Crab, avocado, and cucumber wrapped in seaweed and seasoned vinegared rice."
   },
   {
@@ -50,7 +50,7 @@ export const featureDeals = [
     discountPercentage: 0,
     isHotestDeal: false,
     restaurantName: "Green Bites",
-    remainingTime: 3000,
+    remainingTime: 1500,
     dishDescription: "Fresh romaine lettuce, crunchy croutons, parmesan cheese, and creamy Caesar dressing."
   }
 ];

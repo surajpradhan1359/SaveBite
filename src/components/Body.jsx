@@ -2,6 +2,7 @@ import {HeroSection} from './HeroSection.jsx';
 import {BrowseByCategory} from './browse_by_category.jsx';
 import {Division1} from './Division1.jsx';
 import {FeaturesDeals} from './FeaturesDeals.jsx';
+import { Eat } from './Eat.jsx';
 
 export const Body = () => {
     return (
@@ -10,6 +11,7 @@ export const Body = () => {
             <Division1 />
             <FeaturesDeals />
             <BrowseByCategory />
+            <Eat/>
         </div>
     )
 }
