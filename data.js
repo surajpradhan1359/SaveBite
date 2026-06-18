@@ -11,7 +11,7 @@ export const featureDeals = [
   {
     dishName: "Classic Cheeseburger",
     price: 9.50,
-    discountPercentage: 0,
+    discountPercentage: 8,
     isHotestDeal: false,
     restaurantName: "Burger Haven",
     remainingTime: 5000,
@@ -20,7 +20,7 @@ export const featureDeals = [
   {
     dishName: "Tandoori Chicken Platter",
     price: 18.00,
-    discountPercentage: 15,
+    discountPercentage: 17,
     isHotestDeal: true,
     restaurantName: "Spice Route",
     remainingTime: 6000,
@@ -29,7 +29,7 @@ export const featureDeals = [
   {
     dishName: "Margherita Pizza",
     price: 14.50,
-    discountPercentage: 5,
+    discountPercentage: 15,
     isHotestDeal: false,
     restaurantName: "Bella Italia",
     remainingTime: 2000,
@@ -38,7 +38,7 @@ export const featureDeals = [
   {
     dishName: "California Roll",
     price: 11.00,
-    discountPercentage: 20,
+    discountPercentage: 30,
     isHotestDeal: true,
     restaurantName: "Sushi Zen",
     remainingTime: 1000,
@@ -47,7 +47,7 @@ export const featureDeals = [
   {
     dishName: "Caesar Salad",
     price: 8.99,
-    discountPercentage: 0,
+    discountPercentage: 7,
     isHotestDeal: false,
     restaurantName: "Green Bites",
     remainingTime: 1500,

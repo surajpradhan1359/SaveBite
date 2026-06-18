@@ -1,4 +1,5 @@
 export const Card = ({ data }) => {
+    
     function calculateRemainingTime(sec) {
         let min = Math.floor(sec / 60);
         let hr = 0;
@@ -13,8 +14,8 @@ export const Card = ({ data }) => {
     return (
         <div className="rounded-xl shadow-2xl card">
             <div className="rounded-xl mb-4 relative">
-                <span className="absolute top-2 left-2 bg-red-500 text-white text-xs font-bold py-1 px-3 z-10 rounded-full">Hot Deal</span>
-                <span className="absolute top-2 right-2 bg-gray-800 text-white text-xs font-bold py-1 px-3 z-10 rounded-full">{data.discountPercentage}% OFF</span>
+                {data.discountPercentage >=15 && <span className="absolute top-2 left-2 bg-red-500 text-white text-xs font-bold py-1 px-3 z-10 rounded-full">HOT DEAL</span>}
+                <span className="absolute top-2 right-2 bg-green-500 text-white text-xs font-bold py-1 px-3 z-10 rounded-full">{data.discountPercentage}% OFF</span>
                 <span className="absolute bottom-2 left-2 bg-gray-800 text-white text-xs font-bold py-1 px-3 z-10 rounded-full">{calculateRemainingTime(data.remainingTime)}</span>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDytN390rTw0EZ7YsNsVrAldNV06DSL33OqQ&s" alt="Dish Image" className="w-full h-[300px] object-cover rounded-t-xl" />
             </div>
