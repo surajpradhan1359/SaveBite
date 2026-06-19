@@ -2,8 +2,7 @@ export function Eat() {
 
   return (
     <div className="w-full bg-white font-sans text-gray-800">
-
-      <section className="max-w-6xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-12">
+      <section className=" mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1 space-y-6">
           <span className="bg-amber-100 text-amber-800 text-xs font-semibold px-3 py-1 rounded">
             FOR STUDENTS
@@ -39,7 +38,7 @@ export function Eat() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-16 flex flex-col md:flex-row-reverse items-center gap-12">
+      <section className=" mx-auto px-6 py-16 flex flex-col md:flex-row-reverse items-center gap-12">
         <div className="flex-1 space-y-6">
           <span className="bg-emerald-100 text-emerald-800 text-xs font-semibold px-3 py-1 rounded">
             FOR BUSINESSES
