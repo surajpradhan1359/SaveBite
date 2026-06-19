@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router";
 
 export const Navbar = () => {
     const [btnSatate, setBtnState] = useState(false);
@@ -18,7 +19,9 @@ export const Navbar = () => {
                     <div className='flex space-x-0 md:space-x-10 items-center'>
                         <div className="cursor-pointer text-gray-700 border border-gray-300 rounded-none sm:rounded-2xl bg-gray-100 px-1 py-0.5 text-center w-[170px]">Cuttack,India</div>
                         <div className="flex space-x-4 items-center flex-col md:flex-row space-y-4 md:space-y-0">
-                            <p className="cursor-pointer">Login</p>
+                            <p className="cursor-pointer">
+                            <Link to={'/login'}>Login</Link>
+                            </p>
                             <button className=" bg-gradient-to-r from-green-500 to-orange-500 text-black px-4 py-2 rounded-xl cursor-pointer">Partner With Us</button>
                         </div>
                     </div>

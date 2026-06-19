@@ -3,6 +3,9 @@ import {BrowseByCategory} from './browse_by_category.jsx';
 import {Division1} from './Division1.jsx';
 import {FeaturesDeals} from './FeaturesDeals.jsx';
 import { Eat } from './Eat.jsx';
+import { OurCollectiveImpact } from './Our_collective_Impact.jsx';
+import { ReadyToRescue } from './Ready_to_rescue.jsx';
+
 
 export const Body = () => {
     return (
@@ -11,7 +14,9 @@ export const Body = () => {
             <Division1 />
             <FeaturesDeals />
             <BrowseByCategory />
+            <OurCollectiveImpact/>
             <Eat/>
+            <ReadyToRescue/>
         </div>
     )
 }

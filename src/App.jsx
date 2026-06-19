@@ -1,11 +1,10 @@
-import {Navbar} from './components/Navbar';
-import {Body} from './components/Body';
+import {router} from './Route';
+import { RouterProvider } from 'react-router';
 
 export const App = () => {
   return (
     <div>
-      <Navbar />
-      <Body />
+      <RouterProvider router={router}/>
     </div>
   )
 }

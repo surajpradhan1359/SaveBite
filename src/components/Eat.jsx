@@ -1,4 +1,4 @@
-export  function Eat() {
+export function Eat() {
 
   return (
     <div className="w-full bg-white font-sans text-gray-800">
