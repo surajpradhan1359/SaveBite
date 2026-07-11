@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <div>
-    <footer className="bg-white border-t border-gray-200 px-4 py-12 text-xs text-gray-600 font-sans w-full">
+    <footer className="bg-white border-t border-gray-200 px-4 py-16 text-xs text-gray-600 font-sans w-full">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         
         <div>
