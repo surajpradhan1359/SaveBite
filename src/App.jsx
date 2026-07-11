@@ -1,5 +1,5 @@
-import {router} from './Route';
-import { RouterProvider } from 'react-router';
+import {router} from './Route.jsx';
+import { RouterProvider } from "react-router/dom";
 
 export const App = () => {
   return (

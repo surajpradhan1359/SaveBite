@@ -2,12 +2,14 @@ import { createBrowserRouter, Outlet } from "react-router";
 import { Body } from "./components/Body.jsx";
 import { LoginPage } from "./Pages/LoginPage.jsx";
 import { Navbar } from "./components/Navbar.jsx";
+import { Footer } from "./components/Footer.jsx";
 
 const Mainroute = () => {
     return (
         <div>
             <Navbar />
             <Outlet />
+            <Footer/>
         </div>
     )
 }
