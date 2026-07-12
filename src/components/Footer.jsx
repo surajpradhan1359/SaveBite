@@ -1,8 +1,10 @@
+import { Link } from "react-router";
+
 export function Footer() {
   return (
     <div>
     <footer className="bg-white border-t border-gray-200 px-4 py-16 text-xs text-gray-600 font-sans w-full">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+      <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         
         <div>
           <div className="flex items-center gap-2 font-bold text-gray-900 mb-3">
@@ -18,7 +20,6 @@ export function Footer() {
             <a href="#">Facebook</a>
           </div>
         </div>
-
         <div>
           <h4 className="font-bold text-gray-900 uppercase tracking-wider mb-3">For Students</h4>
           <div className="flex flex-col gap-2 text-gray-500">
@@ -51,7 +52,7 @@ export function Footer() {
 
       </div>
 
-      <div className="max-w-5xl mx-auto border-t border-gray-100 pt-4 flex justify-between text-gray-400">
+      <div className="max-w-[1200px] mx-auto border-t border-gray-100 pt-4 flex justify-between text-gray-400">
         <div>© 2026 SaveBite Inc. Built with love for the planet.</div>
         <div className="flex gap-4">
           <span>English (US)</span>
