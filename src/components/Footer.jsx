@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 export function Footer() {
   return (
     <div>
@@ -18,7 +20,6 @@ export function Footer() {
             <a href="#">Facebook</a>
           </div>
         </div>
-
         <div>
           <h4 className="font-bold text-gray-900 uppercase tracking-wider mb-3">For Students</h4>
           <div className="flex flex-col gap-2 text-gray-500">

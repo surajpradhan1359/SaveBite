@@ -12,7 +12,7 @@ export const Navbar = () => {
                 <ul className="flex space-x-2 md:space-x-6 items-center">
                     <li className="cursor-pointer text-3xl font-bold"><i class="fa-solid fa-leaf mr-1"></i>
                         <span className="cursor-pointer">
-                            <Link to={'/browse_by_category'}>Savebite</Link>
+                            <Link to={'/'}>Savebite</Link>
                             </span>
                     </li>
                     <li className="cursor-pointer hover:text-blue-500 text-gray-500 hidden md:inline-block">Find deals</li>
