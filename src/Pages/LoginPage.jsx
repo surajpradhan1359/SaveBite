@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router';
 
 
 export const LoginPage = () => {
@@ -45,6 +46,14 @@ export const LoginPage = () => {
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="password" />
         </div>
+        <div>
+          <p className="text-sm text-center text-gray-600 dark:text-gray-400">
+            Don't have an account? <span className="text-blue-500 hover:underline cursor-pointer">
+              <Link to="/signup">Sign up</Link>
+            </span>
+          </p>
+        </div>
+
         <div>
           <button
             onClick={handleLogin}

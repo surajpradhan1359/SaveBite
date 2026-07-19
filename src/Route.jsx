@@ -4,6 +4,7 @@ import { LoginPage } from "./Pages/LoginPage.jsx";
 import { Navbar } from "./components/Navbar.jsx";
 import { Footer } from "./components/Footer.jsx";
 import { Finddeals } from "./components/Finddeals.jsx";
+import { Signup } from "./Pages/Signup.jsx";
 
 const Mainroute = () => {
     return (
@@ -23,6 +24,8 @@ export const router = createBrowserRouter([{
     children: [
         { index: true, Component: Body },
         { path: "login", Component: LoginPage },
-        { path: 'find-deals', Component: Finddeals },]
+        { path: 'find-deals', Component: Finddeals },
+        { path: 'signup', Component: Signup }
+    ]
 }])
 
