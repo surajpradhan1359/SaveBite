@@ -8,6 +8,7 @@ import { Signup } from "./Pages/Signup.jsx";
 import { Deals } from "./Pages/Deals.jsx";
 import { ForPartners } from "./Pages/ForPrtner.jsx";
 import { HowItWorks } from "./Pages/HowItWork.jsx";
+import { Dish } from "./Pages/Dish.jsx";
 
 const Mainroute = () => {
     return (
@@ -31,7 +32,8 @@ export const router = createBrowserRouter([{
         { path: 'signup', Component: Signup },
         { path: 'deal', Component:Deals },
         { path: 'how_it_works', Component: HowItWorks },
-        { path: 'for_partners', Component: ForPartners }
+        { path: 'for_partners', Component: ForPartners },
+        {path:'deals/:restaurant_name/:dish_name',Component:Dish}
     ]
 }])
 
