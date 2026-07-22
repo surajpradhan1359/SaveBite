@@ -9,7 +9,7 @@ export const Signup = () => {
     password: "",
     location:""
   });
-  const handlechange =(e)=>{
+  const handleChange =(e)=>{
     const {name ,value} = e.target;
     setData((prevData)=>({
       ...prevData,
@@ -68,7 +68,7 @@ export const Signup = () => {
          <div>
           <p className="text-sm text-center text-gray-600 dark:text-gray-400">
             Already have an account? <span className="text-blue-500 hover:underline cursor-pointer">
-              <Link to="/LoginPage">login</Link>
+              <Link to="/login">login</Link>
             </span>
           </p>
         </div>

@@ -3,12 +3,11 @@ import { Body } from "./components/Body.jsx";
 import { LoginPage } from "./Pages/LoginPage.jsx";
 import { Navbar } from "./components/Navbar.jsx";
 import { Footer } from "./components/Footer.jsx";
-<<<<<<< HEAD
-import { BrowseByCategory } from "./Pages/BrowseByCategory.jsx";
-=======
 import { Finddeals } from "./components/Finddeals.jsx";
 import { Signup } from "./Pages/Signup.jsx";
->>>>>>> 12da0fe1571dc6d9c0707bc3b534036260fddcbe
+import { Deals } from "./Pages/Deals.jsx";
+import { ForPartners } from "./Pages/ForPrtner.jsx";
+import { HowItWorks } from "./Pages/HowItWork.jsx";
 
 const Mainroute = () => {
     return (
@@ -28,17 +27,11 @@ export const router = createBrowserRouter([{
     children: [
         { index: true, Component: Body },
         { path: "login", Component: LoginPage },
-<<<<<<< HEAD
-        { path: "", Component: BrowseByCategory}
-        ]
-},
-{
- 
-}])
-=======
         { path: 'find-deals', Component: Finddeals },
-        { path: 'signup', Component: Signup }
+        { path: 'signup', Component: Signup },
+        { path: 'deal', Component:Deals },
+        { path: 'how_it_works', Component: HowItWorks },
+        { path: 'for_partners', Component: ForPartners }
     ]
 }])
 
->>>>>>> 12da0fe1571dc6d9c0707bc3b534036260fddcbe

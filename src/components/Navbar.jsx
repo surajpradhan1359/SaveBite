@@ -15,13 +15,25 @@ export const Navbar = () => {
                             <Link to={'/'}>Savebite</Link>
                             </span>
                     </li>
-                    <li className="cursor-pointer hover:text-blue-500 text-gray-500 hidden md:inline-block">Find deals</li>
-                    <li className="cursor-pointer hover:text-blue-500 text-gray-500 hidden md:inline-block">How it works</li>
-                    <li className="cursor-pointer hover:text-blue-500 text-gray-500 hidden md:inline-block">For Partners </li>
+                    <li className="cursor-pointer hover:text-blue-500 text-gray-500 hidden md:inline-block">
+                         <p className="cursor-pointer">
+                            <Link to={'/deal'}>Find deals</Link>
+                            </p></li>
+                    <li className="cursor-pointer hover:text-blue-500 text-gray-500 hidden md:inline-block">
+                        <p className="cursor-pointer">
+                            <Link to={'/how_it_works'}>How it works</Link>
+                        </p>
+                    </li>
+                    <li className="cursor-pointer hover:text-blue-500 text-gray-500 hidden md:inline-block">
+                        <p className="cursor-pointer">
+                            <Link to={'/for_partners'}>For Partners</Link>
+                        </p>
+                    </li>
                 </ul>
                 <div className='md:block hidden'>
                     <div className='flex space-x-0 md:space-x-10 items-center'>
-                        <div className="cursor-pointer text-gray-700 border border-gray-300 rounded-none sm:rounded-2xl bg-gray-100 px-1 py-0.5 text-center w-[170px]">Cuttack,India</div>
+                        <div className="cursor-pointer text-gray-700 border border-gray-300 rounded-none sm:rounded-2xl bg-gray-100 px-1 py-0.5 text-center w-[170px]">
+                            <p></p>Cuttack,India</div>
                         <div className="flex space-x-4 items-center flex-col md:flex-row space-y-4 md:space-y-0">
                             <p className="cursor-pointer">
                             <Link to={'/login'}>Login</Link>
