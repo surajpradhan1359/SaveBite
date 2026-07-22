@@ -5,6 +5,9 @@ import { Navbar } from "./components/Navbar.jsx";
 import { Footer } from "./components/Footer.jsx";
 import { Finddeals } from "./components/Finddeals.jsx";
 import { Signup } from "./Pages/Signup.jsx";
+import { Deals } from "./Pages/Deals.jsx";
+import { ForPartners } from "./Pages/ForPrtner.jsx";
+import { HowItWorks } from "./Pages/HowItWork.jsx";
 
 const Mainroute = () => {
     return (
@@ -25,7 +28,10 @@ export const router = createBrowserRouter([{
         { index: true, Component: Body },
         { path: "login", Component: LoginPage },
         { path: 'find-deals', Component: Finddeals },
-        { path: 'signup', Component: Signup }
+        { path: 'signup', Component: Signup },
+        { path: 'deal', Component:Deals },
+        { path: 'how_it_works', Component: HowItWorks },
+        { path: 'for_partners', Component: ForPartners }
     ]
 }])
 
