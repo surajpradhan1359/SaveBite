@@ -10,6 +10,7 @@ export const LoginPage = () => {
   });
   //
   const handleChange = (e) => {
+    console.log(e.target.name)
     const { name, value } = e.target;
     setData((prevData => ({
       ...prevData,
@@ -22,9 +23,9 @@ export const LoginPage = () => {
     e.preventDefault();
     console.log(data);
   }
+  
   return (
     <div className="max-w-[1200px] mx-auto">
-      {console.log(data)}
       <form className="flex flex-col gap-4 w-[400px] mx-auto my-10 p-3 border border-gray-300 rounded-lg shadow-md">
         <div>
           <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
